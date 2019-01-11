@@ -21,7 +21,7 @@ puts a.count {|e| e.match (/[A-Z]/)}
 
 print "Combien y a-t-il de underscore _ dans tous les pseudos confondus ? "
 
-puts a.count {|e| e.match (/[_]/)}
+puts a.join.count "_"
 
 print "Trie la liste de handle par ordre alphabétique: "
 
